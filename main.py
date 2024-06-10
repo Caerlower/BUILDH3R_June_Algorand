@@ -87,7 +87,7 @@ print("Creator Account Asset Balance:", algorand.account.get_information(creator
 algorand.send.asset_transfer(
     AssetTransferParams(
         sender=creator.address,
-        receiver=receiver_acct.address,
+        receiver=creator.address,
         asset_id=asset_id,
         amount=2,
         clawback_target=receiver_acct.address
