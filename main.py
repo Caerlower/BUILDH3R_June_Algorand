@@ -89,7 +89,7 @@ algorand.send.asset_transfer(
         sender=creator.address,
         receiver=creator.address,
         asset_id=asset_id,
-        amount=2,
+        amount=5,
         clawback_target=receiver_acct.address
     )
 )
