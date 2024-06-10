@@ -93,3 +93,8 @@ algorand.send.asset_transfer(
         clawback_target=receiver_acct.address
     )
 )
+
+print("Post Clawback")
+
+print("Receiver Account Asset Balance:", algorand.account.get_information(receiver_acct.address)['assets'][0]['amount'])
+print("Creator Account Asset Balance:", algorand.account.get_information(creator.address)['assets'][0]['amount'])
