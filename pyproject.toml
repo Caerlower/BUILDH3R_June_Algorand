@@ -2,7 +2,7 @@
 name = "codespace-algorand"
 version = "0.1.0"
 description = ""
-authors = ["Manav Goyal <manucool123.rich@gmail.com>"]
+authors = ["Manav Goyal"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
